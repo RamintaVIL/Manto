@@ -1,0 +1,235 @@
+.topSection {
+    margin-top: 50px;
+    gap: 30px;
+}
+.topSectionHeader {
+  font-size: 32px;  
+  text-align: center;
+  color: #2B0236;
+}
+.topSectionButton {
+    background-color: #9A54BC;
+    padding: 10px 15px;
+    border: 1px solid #9A54BC;
+    border-radius: 5px;
+    color: white;
+    font-weight: 500; 
+}
+.topSectionButton:hover {
+    background-color: white;
+    color: #9A54BC;
+    cursor: pointer;
+}
+.elipsesContainer {
+    margin-top: 70px;
+    height: 300px;
+    position: relative; 
+}
+
+.absolute {
+    position: absolute;
+}
+.smallElipse {
+    width: 180px;
+    top: 30px;
+}
+.rectangle {
+    width: 100px;
+    top: 35px;
+}
+.collab {
+    position: absolute;
+    top: 110px;    
+}
+.elipseBtn {
+    position: absolute;
+    bottom: 40px;
+    padding: 3px 7px;
+    font-size: 10px;
+    background-color: white;
+    border: 1.5px solid #9A54BC;
+    border-radius: 2px;
+    color: #60267F;
+    cursor: pointer;
+}
+.elipseBtn:hover {
+    background-color: #9A54BC;
+    color: white;
+}
+.iconsContainer {
+    gap: 50px;
+}
+.icons {
+    width: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.bigPhoneConteiner {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    gap: 2rem;
+}
+.vendorAppAndPhoneContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    gap: 200px;
+}
+.paragraph {
+    width: 400px;
+    height: 320px;
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+.vendorAppPhone {
+    width: 50%;
+    
+}
+.paragraphBtnContainer{
+    background-color: white;
+    padding: 5px;
+    display: flex;
+    border-radius: 5px;
+    box-shadow: 1px 8px 9px 0px rgba(0,0,0,0.25);
+-webkit-box-shadow: 1px 8px 9px 0px rgba(0,0,0,0.25);
+-moz-box-shadow: 1px 8px 9px 0px rgba(0,0,0,0.25);
+}
+.paragraphBtnContainer > button{
+    width: 50%;
+    padding: 5px 0px;
+    border: 2px solid white;
+    background-color: transparent;
+}
+.paragraphBtnContainer>button:hover {
+    border:#9A54BC 2px solid;
+    border-radius: 3px;
+    background-color: #60267F;
+    color: white;
+}
+.paragraphContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+.vendorParagraph {
+    background-color: #F2F2F2;
+    width: 95%;
+    padding: 15px 15px;
+    font-size: 10px;
+}
+.vendorParagraph span {
+    font-weight: 600;
+    font-size: 11px;
+}
+.vendorAppPhone {
+    display: flex;
+    justify-content: center;
+}
+.videoContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-top: 50px;
+    padding: 20px;
+}
+.videoContainer p {
+    width: 75%;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 400;
+}
+.smallCardsContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+}
+.cardsContainer {
+    display: flex;
+    gap: 40px;
+}
+.smallCard {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.smallCard span {
+    margin-left: 10px;
+    font-size: 12px;
+    font-weight: 500;
+}
+.span1 {
+    color: #9A54BC;  
+}
+.bigThreeCardsContainer {
+    margin-top: 75px;
+    gap: 15px;
+}
+.bigThreeCardsContainer span{
+    color:#A79D9D;
+    font-size: 10px;
+    font-weight: 500;
+}
+.discountContainer {
+    gap: 5px;
+    margin-top: 10px;
+}
+.yearly {
+    color: black!important
+}
+.discount {
+    font-size: 7px!important;
+    background-color: #FFE87A;
+    color: black!important;
+    padding: 2px;
+    border-radius: 3px;
+}
+.bigCardsContainer {
+    gap: 50px;
+    width: 55%;
+}
+.bigCard {
+    border: 1px solid #AAAAAA;
+    padding: 20px 25px;
+    width: 300px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 5px;
+}
+.bigCardPara {
+    font-size: 12px;
+    font-weight: 500;
+}
+.bigCard button {
+    color: #2B0236;
+    border: 2px solid #2B0236;
+    background-color: white;
+    padding: 8px;
+    border-radius: 5px;
+    font-size: 12px;
+    font-weight: 700;
+}
+.bigCardsList li::marker {
+    content: "▶";
+}
+.bigCardsList li {
+   padding-left: 10px;
+}
+.last {
+   background-color: #56E6A5; 
+}
+
