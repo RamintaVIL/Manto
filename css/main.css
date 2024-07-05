@@ -234,6 +234,7 @@
 }
 .allStarContainer{
     margin-top: 40px;
+    padding: 50px 0;
     gap: 20px;
 }
 stars {
@@ -255,7 +256,7 @@ stars {
 }
  
 .starsContainer img {
-    margin-bottom: 120px;
+    margin-bottom: 90px;
 }
 
 .downloadApps {
@@ -269,14 +270,6 @@ h1 {
     font-weight: 600;
     color: #fff;
 }
-
-
-
-
-
-
-
-
 .userMap {
     gap: 50px;
     margin-top: 50px;
@@ -386,51 +379,45 @@ h1 {
     color: #9A54BC;
     background-color: #fff;
 }
-
-
 .mapSection {
     gap: 50px;
 }
- 
+.mapPara{
+    gap:30px
+}
 .mapSection h2{
     font-weight: 500;
     font-size: 1.7rem;
 }
-
 .bottomCollab {
     margin-bottom: 10px;
 }
- 
 .bottomSectionContainer {
     margin-top: 100px;
-}
- 
+} 
 .bottomSection {
     gap: 100px;
     align-items: center;
     justify-content: center;
-}
- 
+    margin-top: 50px;
+} 
 .firstDiv {
     display: flex;
     flex-direction: column;
     gap: 30px;
     width: 250px;
     height: 100px;
-}
- 
+} 
 .firstDiv p:nth-child(3){
     font-weight: 500;
-}
- 
+} 
 .bottomPara {
     display: flex;
     flex-direction: column;
     height: 100px;
     gap: 30px;
-}
- 
-.bottomPara p{
+} 
+.bottomPara p {
     color:#9A54BC ;
 }
  
@@ -480,6 +467,10 @@ footer nav ul li a {
 footer ul {
     list-style: none;
 }
+.legal {
+    margin-left: -60px;
+}
+
 
 
  
