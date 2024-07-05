@@ -232,4 +232,256 @@
 .last {
    background-color: #56E6A5; 
 }
+.allStarContainer{
+    margin-top: 40px;
+    gap: 20px;
+}
+stars {
+    margin-top: 80px;
+    margin-bottom: 60px;
+}
+ 
+.starsContainer {
+    gap: 90px;
+}
+ 
+.starsContainer p {
+    width: 501.83px;
+    height: 135.58px;
+    font-weight: 500;
+    font-size: 10.56px;
+    line-height: 14.09px;
+    text-align: center;
+}
+ 
+.starsContainer img {
+    margin-bottom: 120px;
+}
 
+.downloadApps {
+    background-color: #9A54BC;
+    margin-top: 75px;
+    height: 300px;
+    gap: 30px;
+}
+h1 {
+    font-size: 40px;
+    font-weight: 600;
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+.userMap {
+    gap: 50px;
+    margin-top: 50px;
+    padding: 20px;
+
+}
+.bigUsersMap span{
+    text-align: center;
+    font-size: 12px;
+    font-weight: 400;
+}
+.bigUsersMap button {
+    padding: 10px 15px;
+    font-size: 10px;
+    background-color: #9A54BC;
+    border: 1.5px solid #9A54BC;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+}
+.bigUsersMap button:hover {
+    background-color: white;
+    color: #60267F;
+}
+.userMapFoto {
+    position: relative;
+}
+.userMapFoto img:first-child {
+    position: absolute;
+    top: -190px; 
+    left: -130px;
+}
+.userMapFoto img:nth-child(2) {
+    position: relative;
+    top: -80px; 
+    left: -20px;
+}
+.userMapFoto img:nth-child(3) {
+    position: relative;
+    top: -100px; 
+    left: 20px;
+}
+.userMapFoto img:nth-child(4) {
+    position: relative;
+    top: -30px; 
+    right: -50px;
+}
+.userMapFoto img:nth-child(5) {
+    position: relative;
+    top: -50px; 
+    right: -80px;
+}
+.userMapFoto img:nth-child(6) {
+    position: relative;
+    top: -70px; 
+    right: -80px;
+}
+.userMapFoto img:nth-child(7) {
+    position: relative;
+    top: -40px; 
+    right: -110px;
+}
+.userMapFoto img:nth-child(8) {
+    position: relative;
+    top: -90px; 
+    right: -130px;
+}
+.userMapFoto div {
+    position: relative;
+    top: -150px; 
+    right: -10px;
+    color: #9A54BC;
+}
+
+.appBtn {
+    gap: 20px;
+}
+.btn2 {
+    color: #fff;
+    border: 2px solid #fff;
+    background-color: #9A54BC;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 12px;
+    font-weight: 700;
+    width: 120px;
+    height: 35px;
+}
+.btn1 {
+    color: #9A54BC;
+    border: 2px solid #fff;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 12px;
+    font-weight: 700;
+    width: 120px;
+    height: 35px;
+}
+.btn1:hover {
+    cursor: pointer;
+    color: #fff;
+    background-color: #9A54BC;
+}
+.btn2:hover {
+    cursor: pointer;
+    color: #9A54BC;
+    background-color: #fff;
+}
+
+
+.mapSection {
+    gap: 50px;
+}
+ 
+.mapSection h2{
+    font-weight: 500;
+    font-size: 1.7rem;
+}
+
+.bottomCollab {
+    margin-bottom: 10px;
+}
+ 
+.bottomSectionContainer {
+    margin-top: 100px;
+}
+ 
+.bottomSection {
+    gap: 100px;
+    align-items: center;
+    justify-content: center;
+}
+ 
+.firstDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 250px;
+    height: 100px;
+}
+ 
+.firstDiv p:nth-child(3){
+    font-weight: 500;
+}
+ 
+.bottomPara {
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+    gap: 30px;
+}
+ 
+.bottomPara p{
+    color:#9A54BC ;
+}
+ 
+.bottomPara p:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+ 
+.bottomIMG {
+    display: flex;
+    gap: 20px;
+}
+ 
+.bottomIMG:hover {
+    cursor: pointer;
+}
+ 
+.contactUS {
+    color: black!important;
+    font-weight: 500;
+}
+ 
+.contactUS:hover {
+    text-decoration: none!important;
+    cursor: none!important;
+}
+ 
+.bottomMail{
+    margin-top: 95px;
+}
+ 
+footer {
+    background-color: #60267F;
+    padding: 8px;
+    margin-top: 200px;
+}
+ 
+footer nav ul li a {
+    font-family: sans-serif;
+    font-weight: 400;
+    size: 10.56px;
+    line-height: 13.76px;
+    background-color: #60267F;
+    color: white;
+    padding: 8px;
+}
+footer ul {
+    list-style: none;
+}
+
+
+ 
+ 
+ 
